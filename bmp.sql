@@ -13,8 +13,6 @@ into #test_img
 FROM Openrowset( Bulk '/var/opt/mssql/data/myfiles/kobe.bmp', Single_Blob) as img
 
 
-
-
 --drop table if exists #t 
 
 --select img = convert(varchar(max), img, 2)
