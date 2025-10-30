@@ -1,4 +1,8 @@
-The SQL code will read from the .bmp file, and draw an ASCII art in the SSMS result panel.
+The SQL code - 
+- Opens the .bmp file
+- Decode the header to get size info
+- Decode the pixel info
+- Draw an ASCII art in the SSMS result panel.
 
 Example, 
 for kobe.bmp, the SSMS result panel will render as below - 
